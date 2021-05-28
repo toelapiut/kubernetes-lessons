@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: neat-web-pod
+  labels:
+    app: neat
+spec:
+  containers:
+  - name: neat-web-container
+    image: toelapiut/neat:0.1
+
+
